@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 11vh;
+    background-color: rgb(51, 53, 69);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+padding: 20px;
+}
+header ul li img{
+    border-radius: 5px;
+}
+header ul li input{
+    width: 50vw;
+    height: 6.5vh;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+
+header ul li label{
+    padding-right: 5px;
+    color: white;
+}
+header ul li img{
+padding-top: 2px;
+}
+header ul li:hover{
+    cursor: pointer;
+} 
+header ul li label{
+    cursor: pointer;
+   }
+.btn{
+    padding: 2px;
+    height: 25px;
+    width: 70px;
+    background-color: rgb(248, 68, 100);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    }
+nav{
+    height: 6vh;
+    background-color: rgb(31, 37, 51);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+nav ul{
+    display: flex;
+    }
+    nav ul li{
+        padding: 10px;
+        text-transform: capitalize;
+        list-style: none;
+    }
+    nav ul li a{
+        color: rgb(201, 190, 190);
+        text-decoration: none;
+    }
+    nav ul li a:hover{
+        color:white
+    }
+    nav .left{
+        padding-left: 25px;
+    }
+    nav .right{
+        padding-right: 25px;
+    }
+
+.slider{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    overflow: hidden;
+    border-radius: 4px 0 0 4px;
+    margin: 13px;
+    
+}
+.slider img{
+    object-fit: cover;
+    object-position: center;
+}
+
+@keyframes slider1 {
+    0%{
+        transform: translate(-8vw );
+    }
+    100%{
+        transform: translate(85vw );
+    }
+}
+
+@keyframes slider2 {
+    0%{
+        transform: translate(0vw );
+    }
+    100%{
+        transform: translate(92vw );
+    }
+    
+}
+
+.slider1{
+    transform: translate(-8vw);
+    animation: slider1 2s 2s 3 forwards ;
+}
+.slider2{
+    transform: translate(0vw);
+    animation: slider1 2s 2s 3 forwards ;
+}
+.slider2{
+    transform: translate(8vw);
+ }
+ .gallery{
+    margin: 20px 0;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+ .galleryCard{
+    width: inherit;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    justify-content: center;
+    align-items: center;
+ }
+ .cardItem{
+    margin: 10px 0;
+    height: 50vh;
+    width: 18vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+
+ }
+ .cardItem img{
+    height: 40vh;
+    width: 15vw;
+    padding-bottom: 5px;
+    border-radius: 10px;
+ }
+ .cardItem img:hover{
+    cursor: pointer;
+ }
+ .cardItem a:hover{
+    cursor: pointer;
+ }
+ .cardItem a{
+   text-decoration: none;
+ }
+.content{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+
+.content img{
+    height: 10vh;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.cardItem1{
+    margin: 5px 0;
+    height: 40vh;
+    width: 18vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+
+ }
+ .cardItem1 img{
+    height: 30vh;
+    width: 15vw;
+    padding-bottom: 5px;
+    border-radius: 10px;
+ }
+ .cardItem1 img:hover{
+    cursor: pointer;
+ }
