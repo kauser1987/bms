@@ -115,7 +115,7 @@ nav ul{
 }
 
 .slider1{
-    transform: translate(-8vw);
+    transform: translate(-10vw);
     animation: slider1 2s 2s 3 forwards ;
 }
 .slider2{
